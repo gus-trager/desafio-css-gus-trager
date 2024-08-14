@@ -24,83 +24,155 @@ Algumas informações úteis e dicas:
 
  html,
  body {
-   font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
  }
  
  h3{
-   font-family: 'Permanent Marker', cursive;
-   font-size: 1.2rem;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.4rem;
  }
  
  p{
-   display: flex;
-   font-family: 'Permanent Marker', cursive;
-   color: #4c4c4c;
-   justify-content: center;
+  display: flex;
+  font-family: 'Permanent Marker', cursive;
+  color: #4c4c4c;
+  font-size: 1.1rem;
  }
  
  .logo{
-   width: 5%;
-   padding: 7px;
+  width: 5%;
+  padding: 7px;
  }
  
  .appbar{
-   display: flex;
-   background-color: #f7d736;
-   align-items: center;
-   justify-content: flex-start;
-   gap: 10px;
-   box-shadow: 0 4px 10px rgba(0,0,0,0.5)
+  display: flex;
+  background-color: #f7d736;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5)
  }
  
  .container{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
  }
  
  .form-card{
-   display: flex;
-   flex-direction: column;
-   gap: 10px;
-   width: 500px;
-   height: 100px;
-   margin: 20px;
-   box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-   padding: 10px;
-   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 500px;
+  height: 100px;
+  margin: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  padding: 10px;
+  border-radius: 10px;
  }
  
  .form-card-title{
-   border: none;
-   font-size: 1.3rem;
+  border: none;
+  font-size: 1.3rem;
  }
  
  .autoresize{
-   border: none;
+  border: none;
  }
  
  .card-container{
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: row;
-   margin: 10px;
-   justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0.625rem;
+  justify-content: space-around;
  }
  
  .card{
-   display: flex;
-   background-color: #ead3a7;
-   padding: 10px;
-   width: 200px;
-   height: 110px;
-   flex-direction: column;
-   gap: 10px;
-   border-radius: 10px;
-   box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-   margin: 10px;
+  position: relative;
+  display: flex;
+  background-color: #ead3a7;
+  padding: 0.625rem;
+  width: 14rem;
+  height: 8rem;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.625rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  margin: 0.625rem;
  }
+
+ .card-title{
+  height: 30%;
+ }
+ 
+ .card-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60%;
+ }
+
+.card-color-1 {
+  background-color: #ead3a7; /* Vermelho */
+}
+
+.card-color-2 {
+  background-color: #9de0f5; /* Azul */
+}
+
+.card-color-3 {
+  background-color: #ef89ba; /* Verde */
+}
+
+.card-color-4 {
+  background-color: #fae890; /* Amarelo */
+}
+
+.card-color-5 {
+background-color: #abe9c1; /* Amarelo */
+}
+
+.card-rotation-1 {
+  transform: rotate(1deg);
+}
+
+.card-rotation-2 {
+  transform: rotate(2deg);
+}
+
+.card-rotation-3 {
+  transform: rotate(3deg);
+}
+
+.card-rotation-4 {
+  transform: rotate(4deg);
+}
+
+.card-rotation-5 {
+  transform: rotate(5deg);
+}
+
+.card-rotation-6 {
+  transform: rotate(-1deg);
+}
+
+.card-rotation-7 {
+  transform: rotate(-2deg);
+}
+
+.card-rotation-8 {
+  transform: rotate(-3deg);
+}
+
+.card-rotation-9 {
+  transform: rotate(-4deg);
+}
+
+.card-rotation-10 {
+  transform: rotate(-5deg);
+}
  
  /* Você pode usar o CSS comentado abaixo, se ajudar */
  /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
